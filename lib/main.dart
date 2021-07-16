@@ -23,7 +23,7 @@ class PiCard extends StatelessWidget {
             Center(
               child: CircleAvatar(
                 radius: 40.0,
-                child: Image.network('https://picsum.photos/250?image=9'),
+                backgroundImage: AssetImage('asset/specter.png'),
               ),
             ),
             Divider(
